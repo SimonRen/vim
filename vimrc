@@ -117,3 +117,5 @@ map <F3> :!xmllint --noout %<cr>
 set path+=/Users/rensimon/Work/bloodwar/client/IwGame/h
 set path+=/Developer/Marmalade/6.1/s3e/h
 
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
