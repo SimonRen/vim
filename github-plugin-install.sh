@@ -53,4 +53,4 @@ git subtree $cmd \
     --prefix=bundle/$bundle_name \
     --squash \
     -m "$action $message" \
-    https://github.com/$github_name.git $github_branch
+    git://github.com/$github_name.git $github_branch
