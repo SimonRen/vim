@@ -113,6 +113,8 @@ set autochdir
 set tags=./tags;/
 map <F2> :!luac -p %<cr>
 map <F3> :!xmllint --noout %<cr>
+cnoremap ff :FufFile<cr>
+cnoremap fb :FufBuffer<cr>
 
 set path+=/Users/rensimon/Work/bloodwar/client/IwGame/h
 set path+=/Developer/Marmalade/6.1/s3e/h
