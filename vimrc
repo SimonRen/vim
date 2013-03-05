@@ -84,9 +84,7 @@ if has("autocmd")
     \ endif
 
   augroup END
-
-else
-
+else 
   set autoindent		" always set autoindenting on
 
 endif " has("autocmd")
@@ -113,11 +111,13 @@ set autochdir
 set tags=./tags;/
 map <F2> :!luac -p %<cr>
 map <F3> :!xmllint --noout %<cr>
-cnoremap ff :FufFile<cr>
-cnoremap fb :FufBuffer<cr>
+map ff :FufFile<cr>
+map fb :FufBuffer<cr>
 
 set path+=/Users/rensimon/Work/bloodwar/client/IwGame/h
 set path+=/Developer/Marmalade/6.1/s3e/h
 
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
+
+colorscheme pablo
