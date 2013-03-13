@@ -113,7 +113,7 @@ map <F2> :!luac -p %<cr>
 map <F3> :!xmllint --noout %<cr>
 map ff :FufFile<cr>
 map fb :FufBuffer<cr>
-map ss :mksession ~/.myvim
+map ss :mksession! ~/.myvim
 map sl :source ~/.myvim
 
 set path+=/Users/rensimon/Work/bloodwar/client/IwGame/h
