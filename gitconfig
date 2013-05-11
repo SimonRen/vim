@@ -7,3 +7,6 @@
     lg = log -p
     lsd = log --graph --decorate --pretty=online --abbrev-commit --all
     update = pull -v
+[user]
+	name = jmulro
+	email = jmulro@gmail.com
