@@ -1,0 +1,12 @@
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lg = log -p
+    lsd = log --graph --decorate --pretty=online --abbrev-commit --all
+    update = pull -v
+[user]
+	name = jmulro
+	email = jmulro@gmail.com
