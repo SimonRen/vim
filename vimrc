@@ -116,6 +116,7 @@ map fb :FufBuffer<cr>
 map ssb :mksession! ~/.myvim
 map sst :mksession! ~/.myvimt
 map sl :source ~/.myvim
+map ack :Ack 
 
 set path+=/Users/rensimon/Work/bloodwar/client/IwGame/h
 set path+=/Developer/Marmalade/6.1/s3e/h
