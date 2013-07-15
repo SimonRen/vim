@@ -125,3 +125,9 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 colorscheme pablo
+
+autocmd BufWritePost *.lua execute '!luac -p %'
+" TODO add post write for xml file
+"autocmd BufWritePost *.xml silent execute 'luac -p %'
+
+
